@@ -1,1 +1,47 @@
 /* Styles globaux du site vitrine */
+
+/* ----- Header ----- */
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 32px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.site-header__brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.site-header__logo {
+  display: inline-block;
+  padding: 6px 10px;
+  border: 2px solid #222;
+  border-radius: 6px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.site-header__name {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.site-nav__list {
+  display: flex;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.site-nav__link {
+  text-decoration: none;
+  color: #222;
+}
+
+.site-nav__link:hover {
+  text-decoration: underline;
+}
